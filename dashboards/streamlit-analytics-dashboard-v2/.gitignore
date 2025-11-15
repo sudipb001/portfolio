@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/*.log
+**/.streamlit/credentials.toml
+.streamlit/cache/
+
+# Supabase
+.env
+supabase/.temp
+supabase/.supabase
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs / outputs
+*.log
+*.out
+*.err
+
+# PDF / reports (optional)
+*.pdf
+reports/
+output/
+
+# Altair / chart temp
+*.png
+charts/
+tmp/
+
+# Archives
+*.zip
+*.tar
+*.gz
